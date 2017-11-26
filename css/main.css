@@ -4,6 +4,22 @@ html {
   text-decoration: none;
 }
 
+h1 {
+  margin: 0;
+  color: #fff;
+  font-style: bold;
+  background-color: #d05c2e;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  margin: 0;
+}
+
 .list {
   list-style-type: none;
   display: inline;
@@ -12,4 +28,8 @@ html {
 
 li {
   text-decoration: none;
+  margin: 0;
+  background-color: #d05c2e;
+  color: #fff;
+  font-style: bold;
 }
