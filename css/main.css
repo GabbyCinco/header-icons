@@ -1,4 +1,15 @@
 html {
   font-family: 'Merriweather', serif;
+  line-height: 1.5;
+  text-decoration: none;
+}
 
+.list {
+  list-style-type: none;
+  display: inline;
+  margin: 0;
+}
+
+li {
+  text-decoration: none;
 }
