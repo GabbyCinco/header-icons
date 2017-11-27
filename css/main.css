@@ -6,16 +6,16 @@ html {
 
 .left {
   width: 50%;
-  max-width: 3rem;
-  margin-top: 1rem;
+  max-width: 2.5rem;
+  margin-top: 1.1rem;
   float: left;
 }
 
 .right {
   width: 50%;
-  max-width: 3rem;
+  max-width: 2.5rem;
   float: right;
-  margin-top: 1rem;
+  margin-top: 1.1rem;
 }
 
 h1 {
@@ -24,7 +24,8 @@ h1 {
   font-style: bold;
   background-color: #d05c2e;
   text-align: center;
-  padding: 1rem;
+  padding: .8rem;
+  font-size: 2rem;
 }
 
 body {
@@ -33,18 +34,27 @@ body {
 
 nav {
   margin: 0;
+  padding: 0;
+  background-color: #d05c2e;
 }
 
 .list {
   list-style-type: none;
-  display: inline;
   margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 li {
+  display: inline-block;
   text-decoration: none;
   margin: 0;
   background-color: #d05c2e;
   color: #fff;
   font-style: bold;
+  font-size: 1.125rem;
+}
+
+li:hover {
+  background-color: #a63f38;
 }
