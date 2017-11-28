@@ -5,15 +5,13 @@ html {
 }
 
 .left {
-  width: 50%;
-  max-width: 2.5rem;
+  width: 40px;
   margin-top: 1.1rem;
   float: left;
 }
 
 .right {
-  width: 50%;
-  max-width: 2.5rem;
+  width: 40px;
   float: right;
   margin-top: 1.1rem;
 }
@@ -21,7 +19,7 @@ html {
 h1 {
   margin: 0;
   color: #fff;
-  font-style: bold;
+  font-weight: bold;
   background-color: #d05c2e;
   text-align: center;
   padding: .8rem;
@@ -47,14 +45,21 @@ nav {
 
 li {
   display: inline-block;
+}
+
+a {
+  display: inline-block;
   text-decoration: none;
   margin: 0;
+  border-radius: 0;
+  border-width: 1rem;
+  border-color: #a63f38;
   background-color: #d05c2e;
   color: #fff;
-  font-style: bold;
+  font-weight: bold;
   font-size: 1.125rem;
 }
 
-li:hover {
+a:hover {
   background-color: #a63f38;
 }
